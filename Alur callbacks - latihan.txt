@@ -1,0 +1,54 @@
+API KEY = 2b182939
+
+1. tampilkan data film 10 menggunakan ajax query.
+2. Jquery ajax tolong request data ke ... 
+3. ketika Success kembalikan hasil dari api nya dengan parameter result. Dan ketika error consol responseText.
+4. Result sudah didapatkan tetapi ada search nya , untuk menghilangkannya bikin variabel baru dengan menuju ke object search
+5. menampilkan data ke card menggunakan looping menggunakan 
+	variable-cards dengan value string kosong, pindahkan elemen card ke loopingnya. tambah cards dengan element html
+6. jika sudah di looping simpen kumpulan card nya ke dalam class  row , jangan lupa tambahkan class di row dengan
+	movie-container
+7. tulis di bawah forEach , jquery tolong carikan elemen dengan kelas movie-container , isi html nya dengan cards yang
+	sudah di tumpuk tadi.
+8. ganti gambar nya dengan html fragment / template literals element dengan nama Poster , sesuai yang ada di postman
+9. Ketika di click detail muncul modal box nya atau
+	atau detailnya. Request ajax ke API yang berbeda
+10. balik ke bootsrap cari modal
+11. Taro modal sebelum script
+12. hapus dan ganti button dari modal ke Detail yang ada di card
+13. ganti target di card dan juga di modal nya
+14. ganti posisi modal ke tengah dan ubah ukurannya 
+	menjaid large
+15. bikin cotainer-fluid di modal body
+16. bikin 1 baris (row) dan 2 kolom (col.md-3)
+17. isinya gambar dan kasih kelas img-fluid // Kolom 1
+18. kasih kolom lagi dengan class col-md
+19. cari di bootsrap list grup dan tempel di kolom 2
+20. Judul film , sutradara , pemeran , writer ,
+	plot
+
+21. Kalau sudah tampil , di saat click detail dia akan
+	request ajax sambil ngirim data imdb - id.
+	Kasih atribut data-imdbid="value"
+22. kasih class di Details nya modal-detail-button
+23. panggil di bawah movie-container
+24. Jquery carikan elemen modal-detail-button lalu
+	ketika tombolnya on 'clik'. check data id nya
+	dengan this data imdbid.
+25. kalo sudah di cek jalankan ajax lagi di dalam 
+	fun on click url dan tambah  dengan this data imdbid.
+26. dan kalo succes ambil resultnya. 
+27. buat var movieDetail isi dengan string yang 
+	didalamnya terdapat element html yang ada di 
+	dalam modal body , cut dan taro disitu.
+28. gambar dan lainnya ganti dengan sesuai postman.
+29,	panggil var nya klo sukses kalo error sama aja di
+	dengan di atas
+30. Jquery panggil dengan elemen class modal-body dan
+	isikan dengan movieDetail.
+31. Bikin rapih ke dalam function dengan nama 
+	showCards dengan parameter movie atau m.
+	Lalu return dengan element HTML nya
+32. Bikin fun showMovieDetail sama saja dengan di
+	atas
+
